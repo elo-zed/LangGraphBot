@@ -10,7 +10,7 @@ class DeepSeekClient:
             api_key: DeepSeek API密钥
         """
         self.client = OpenAI(
-            api_key="sk-33683be52d6c4433adb41c439e553c37",
+            api_key="",
             base_url="https://api.deepseek.com"
         )
     
